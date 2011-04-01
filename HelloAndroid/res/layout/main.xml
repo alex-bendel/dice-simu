@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.example.helloandroid"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/message"
+    />
+<com.example.helloandroid.view.DiceView
+	android:id="@+id/diceOne"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    app:min="1"
+    app:max="20"
+    app:value="10"
+    />
+<com.example.helloandroid.view.DiceView
+	android:id="@+id/diceTwo"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    app:min="1"
+    app:max="20"
+    app:value="10"
+    />    
+</LinearLayout>
