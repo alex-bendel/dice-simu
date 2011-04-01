@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Users\alex\Source\Android\Dice-Simu\.metadata\.plugins\org.eclipse.jdt.core
+1337937074.index
+864176106.index
+37712116.index
