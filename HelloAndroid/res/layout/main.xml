@@ -10,20 +10,52 @@
     android:layout_height="wrap_content" 
     android:text="@string/message"
     />
-<com.example.helloandroid.view.DiceView
-	android:id="@+id/diceOne"  
+<de.orangenscheibe.dicesim.view.DiceView
+	android:id="@+id/D20"  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    app:min="1"
+    app:name="D20"
     app:max="20"
-    app:value="10"
+    app:color="0xFFFF0000"
     />
-<com.example.helloandroid.view.DiceView
-	android:id="@+id/diceTwo"  
+<de.orangenscheibe.dicesim.view.DiceView
+	android:id="@+id/D12"  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    app:min="1"
-    app:max="20"
-    app:value="10"
+    app:name="D12"
+    app:color="0xFF00FF00"
+    app:max="12"    
+    />    
+<de.orangenscheibe.dicesim.view.DiceView
+	android:id="@+id/D10"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    app:name="D10"
+    app:color="0xFF0000FF"
+    app:max="10"
+    />    
+<de.orangenscheibe.dicesim.view.DiceView
+	android:id="@+id/D8"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    app:name=" D8"
+    app:color="0xFFFFFF00"
+    app:max="8"
+    />    
+<de.orangenscheibe.dicesim.view.DiceView
+	android:id="@+id/D6"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    app:name=" D6"
+    app:color="0xFF00FFFF"
+    app:max="6"
+    />    
+<de.orangenscheibe.dicesim.view.DiceView
+	android:id="@+id/D4"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    app:name=" D4"
+    app:color="0xFFFF00FF"
+    app:max="4"
     />    
 </LinearLayout>

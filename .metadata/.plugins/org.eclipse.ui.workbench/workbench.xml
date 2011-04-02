@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
-<window height="1008" maximized="true" width="840" x="840" y="2">
+<window height="994" maximized="true" width="1172" x="1" y="3">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -12,22 +12,22 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -37,31 +37,32 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="3"/>
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DiceView.java" partName="DiceView.java" path="C:/Users/alex/Source/Android/Dice-Simu/HelloAndroid/src/com/example/helloandroid/view/DiceView.java" title="DiceView.java" tooltip="HelloAndroid/src/com/example/helloandroid/view/DiceView.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HelloAndroid/src/com/example/helloandroid/view/DiceView.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DiceView.java" partName="DiceView.java" path="C:/Users/alex/Source/Android/Dice-Simu/HelloAndroid/src/de/orangenscheibe/dicesim/view/DiceView.java" title="DiceView.java" tooltip="HelloAndroid/src/de/orangenscheibe/dicesim/view/DiceView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HelloAndroid/src/de/orangenscheibe/dicesim/view/DiceView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="589" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DiceController.java" partName="DiceController.java" path="C:/Users/alex/Source/Android/HelloAndroid/src/controller/DiceController.java" title="DiceController.java" tooltip="HelloAndroid/src/controller/DiceController.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HelloAndroid/src/controller/DiceController.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="811" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" partName="main.xml" path="C:/Users/alex/Source/Android/Dice-Simu/HelloAndroid/res/layout/main.xml" title="main.xml" tooltip="HelloAndroid/res/layout/main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HelloAndroid/res/layout/main.xml"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dice.java" partName="Dice.java" path="C:/Users/alex/Source/Android/HelloAndroid/src/com/example/helloandroid/Dice.java" title="Dice.java" tooltip="HelloAndroid/src/com/example/helloandroid/Dice.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HelloAndroid/src/com/example/helloandroid/Dice.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="238" selectionTopPixel="0"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" partName="strings.xml" path="C:/Users/alex/Source/Android/HelloAndroid/res/values/strings.xml" title="strings.xml" tooltip="HelloAndroid/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" partName="strings.xml" path="C:/Users/alex/Source/Android/Dice-Simu/HelloAndroid/res/values/strings.xml" title="strings.xml" tooltip="HelloAndroid/res/values/strings.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HelloAndroid/res/values/strings.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="AndroidManifest.xml" partName="AndroidManifest.xml" path="C:/Users/alex/Source/Android/Dice-Simu/HelloAndroid/AndroidManifest.xml" title="AndroidManifest.xml" tooltip="HelloAndroid/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HelloAndroid/AndroidManifest.xml"/>
 </editor>
 </editors>
 <views>
+<view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
+<viewState/>
+</view>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
 <viewState/>
 </view>
@@ -70,8 +71,9 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Errors"/>
+<expanded>
 <category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (2 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -124,9 +126,11 @@
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -137,6 +141,9 @@
 <alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
@@ -144,9 +151,6 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
-<alwaysOnActionSet id="adt.actionSet.wizards"/>
-<alwaysOnActionSet id="adt.actionSet.refactorings"/>
-<alwaysOnActionSet id="adt.actionSet.avdManager"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -174,14 +178,18 @@
 <new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
 <new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
 <new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.adt.project.NewProjectWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.editors.wizards.NewXmlFileWizard"/>
 <new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.android.ide.eclipse.ddms.Perspective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.PixelPerfectPespective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.TreeViewPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <fastViewBars/>
@@ -199,21 +207,26 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@64889c4e" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7ad7e784" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@35fba288" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="left">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.24477245" ratioLeft="199" ratioRight="614" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.8203991" ratioLeft="740" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.19310898" ratioLeft="241" ratioRight="1007" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.5" ratioLeft="451" ratioRight="451" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
@@ -221,11 +234,10 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="right" ratio="0.7496013" ratioLeft="940" ratioRight="314" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
@@ -278,51 +290,75 @@
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.debug.ui.ExpressionView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="612" ratioRight="204" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="612" ratioRight="204" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74971163" ratioLeft="650" ratioRight="217" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74971163" ratioLeft="650" ratioRight="217" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@4515605d" ratio="0.5" ratioLeft="408" ratioRight="408" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4515605d" ratio="0.5" ratioLeft="408" ratioRight="408" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
+<folder activePageID="org.eclipse.jdt.ui.JavadocView" appearance="2" expanded="2">
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44923076" ratioLeft="292" ratioRight="358" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="612" ratioRight="204" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="612" ratioRight="204" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="408" ratioRight="408" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="408" ratioRight="408" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
-<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -334,160 +370,135 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/com/example/helloandroid/view/DiceView.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/HelloAndroid/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/controller/DiceController.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/gen/com/example/helloandroid/R.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=HelloAndroid/C:\/Dev\/android-sdk\/platforms\/android-7\/android.jar&lt;java.lang(ClassLoader.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" path="/HelloAndroid/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/HelloAndroid/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/controller/DiceController.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=HelloAndroid/C:\/Dev\/android-sdk\/platforms\/android-7\/android.jar&lt;android.content(Context.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/com/example/helloandroid/HelloAndroid.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=HelloAndroid/C:\/Dev\/android-sdk\/platforms\/android-7\/android.jar&lt;java.lang.reflect(InvocationTargetException.class"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/com/example/helloandroid/Dice.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/controller/DiceController.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/com/example/helloandroid/HelloAndroid.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/controller/DiceController.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/HelloAndroid/res/layout/main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" path="/HelloAndroid/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/com/example/helloandroid/view/DiceView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/HelloAndroid/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/com/example/helloandroid/DiceRolling.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/de/orangenscheibe/dicesim/Dice.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/de/orangenscheibe/dicesim/DiceRolling.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/de/orangenscheibe/dicesim/view/DiceView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/de/orangenscheibe/dicesim/controller/DiceController.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/de/orangenscheibe/dicesim/controller/DiceAnimator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/HelloAndroid/default.properties"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/HelloAndroid/proguard.cfg"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloAndroid/src/de/orangenscheibe/dicesim/view/DiceView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/HelloAndroid/res/layout/main.xml"/>
 </editors>
 <item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="1035" y="0"/>
+<position/>
 </item>
-<item historyLabel="main.xml" index="1"/>
-<item historyLabel="DiceController.java" index="2">
-<position info="not_deleted" x="822" y="0"/>
+<item historyLabel="Dice.java" index="1">
+<position info="not_deleted" x="303" y="0"/>
 </item>
-<item historyLabel="R.java" index="3">
-<position info="not_deleted" x="1654" y="7"/>
+<item historyLabel="HelloAndroid.java" index="2">
+<position info="not_deleted" x="479" y="0"/>
 </item>
-<item historyLabel="DiceController.java" index="2">
-<position info="not_deleted" x="756" y="0"/>
+<item historyLabel="DiceController.java" index="3">
+<position info="not_deleted" x="922" y="0"/>
 </item>
-<item historyLabel="ClassLoader.class" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="DiceController.java" index="3">
+<position info="not_deleted" x="1244" y="70"/>
 </item>
-<item historyLabel="DiceController.java" index="2">
-<position info="not_deleted" x="756" y="0"/>
+<item historyLabel="Dice.java" index="1">
+<position info="not_deleted" x="307" y="0"/>
 </item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="1035" y="0"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="strings.xml" index="5"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="AndroidManifest.xml" index="6"/>
+<item historyLabel="HelloAndroid.java" index="2">
+<position info="not_deleted" x="232" y="0"/>
+</item>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="AndroidManifest.xml" index="6"/>
+<item historyLabel="HelloAndroid.java" index="2">
+<position info="not_deleted" x="232" y="0"/>
+</item>
+<item historyLabel="HelloAndroid.java" index="2">
+<position info="not_deleted" x="197" y="0"/>
+</item>
+<item historyLabel="DiceRolling.java" index="7">
+<position info="not_deleted" x="384" y="0"/>
+</item>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="strings.xml" index="5"/>
+<item historyLabel="AndroidManifest.xml" index="6"/>
+<item historyLabel="Dice.java" index="8">
+<position info="not_deleted" x="307" y="0"/>
+</item>
+<item historyLabel="Dice.java" index="8">
+<position info="not_deleted" x="308" y="0"/>
+</item>
+<item historyLabel="DiceRolling.java" index="9">
+<position info="not_deleted" x="420" y="0"/>
+</item>
+<item historyLabel="DiceRolling.java" index="9">
+<position info="not_deleted" x="421" y="0"/>
+</item>
+<item historyLabel="DiceView.java" index="10">
+<position info="not_deleted" x="1262" y="0"/>
+</item>
+<item historyLabel="DiceView.java" index="10">
+<position info="not_deleted" x="1263" y="0"/>
+</item>
+<item historyLabel="DiceController.java" index="11">
+<position info="not_deleted" x="1248" y="70"/>
+</item>
+<item historyLabel="DiceRolling.java" index="9">
+<position info="not_deleted" x="732" y="0"/>
+</item>
+<item historyLabel="Dice.java" index="8">
+<position info="not_deleted" x="308" y="0"/>
+</item>
+<item historyLabel="DiceAnimator.java" index="12">
+<position info="not_deleted" x="403" y="0"/>
+</item>
+<item historyLabel="DiceController.java" index="11">
+<position info="not_deleted" x="1274" y="70"/>
+</item>
+<item historyLabel="DiceController.java" index="11">
+<position info="not_deleted" x="824" y="0"/>
+</item>
+<item historyLabel="DiceController.java" index="11">
+<position info="not_deleted" x="663" y="0"/>
+</item>
+<item historyLabel="DiceController.java" index="11">
+<position info="not_deleted" x="577" y="0"/>
+</item>
+<item historyLabel="DiceController.java" index="11">
+<position info="not_deleted" x="719" y="0"/>
+</item>
+<item historyLabel="DiceController.java" index="11">
+<position info="not_deleted" x="642" y="0"/>
+</item>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="DiceAnimator.java" index="12">
+<position info="not_deleted" x="658" y="0"/>
 </item>
 <item historyLabel="strings.xml" index="5"/>
-<item historyLabel="main.xml" index="6"/>
+<item historyLabel="AndroidManifest.xml" index="6"/>
 <item historyLabel="strings.xml" index="5"/>
-<item historyLabel="DiceController.java" index="7">
-<position info="not_deleted" x="758" y="0"/>
-</item>
-<item historyLabel="main.xml" index="6"/>
-<item historyLabel="DiceController.java" index="7">
-<position info="not_deleted" x="758" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="812" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="482" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="670" y="45"/>
-</item>
-<item historyLabel="Context.class" index="8">
+<item historyLabel="AndroidManifest.xml" index="6"/>
+<item historyLabel="default.properties" index="13">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="577" y="30"/>
+<item historyLabel="proguard.cfg" index="14">
+<position info="not_deleted" x="180" y="0"/>
 </item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="48" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="611" y="0"/>
-</item>
-<item historyLabel="DiceController.java" index="7">
-<position info="not_deleted" x="758" y="0"/>
-</item>
-<item historyLabel="HelloAndroid.java" index="9">
-<position info="not_deleted" x="340" y="0"/>
-</item>
-<item historyLabel="HelloAndroid.java" index="9">
-<position info="not_deleted" x="400" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="611" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="2783" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="814" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="872" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="930" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="1009" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="1152" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="1174" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="1196" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="1628" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="1669" y="0"/>
-</item>
-<item historyLabel="InvocationTargetException.class" index="10">
+<item historyLabel="default.properties" index="13">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="1669" y="0"/>
-</item>
-<item historyLabel="Dice.java" index="11">
-<position info="not_deleted" x="270" y="0"/>
-</item>
-<item historyLabel="DiceController.java" index="12">
-<position info="not_deleted" x="823" y="0"/>
-</item>
-<item historyLabel="Dice.java" index="11">
-<position info="not_deleted" x="255" y="0"/>
-</item>
-<item historyLabel="DiceController.java" index="12">
-<position info="not_deleted" x="811" y="0"/>
-</item>
-<item historyLabel="Dice.java" index="11">
-<position info="not_deleted" x="321" y="4"/>
-</item>
-<item historyLabel="HelloAndroid.java" index="13">
-<position info="not_deleted" x="400" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="607" y="0"/>
-</item>
-<item historyLabel="DiceController.java" index="12">
-<position info="not_deleted" x="811" y="0"/>
-</item>
-<item historyLabel="DiceView.java" index="0">
-<position info="not_deleted" x="607" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="14"/>
-<item historyLabel="HelloAndroid.java" index="13">
-<position info="not_deleted" x="400" y="0"/>
-</item>
+<item historyLabel="AndroidManifest.xml" index="6"/>
+<item historyLabel="strings.xml" index="5"/>
 <item historyLabel="DiceView.java" index="15">
-<position info="not_deleted" x="0" y="0"/>
+<position info="not_deleted" x="589" y="0"/>
 </item>
-<item active="true" historyLabel="DiceView.java" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
+<item historyLabel="main.xml" index="16"/>
+<item historyLabel="strings.xml" index="5"/>
+<item active="true" historyLabel="AndroidManifest.xml" index="6"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -505,47 +516,47 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="InvocationTargetException.class" tooltip="java.lang.reflect.InvocationTargetException">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=HelloAndroid/C:\/Dev\/android-sdk\/platforms\/android-7\/android.jar&lt;java.lang.reflect(InvocationTargetException.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Context.class" tooltip="android.content.Context">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=HelloAndroid/C:\/Dev\/android-sdk\/platforms\/android-7\/android.jar&lt;android.content(Context.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="AndroidManifest.xml" tooltip="HelloAndroid/AndroidManifest.xml">
+<persistable path="/HelloAndroid/AndroidManifest.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" tooltip="HelloAndroid/res/values/strings.xml">
 <persistable path="/HelloAndroid/res/values/strings.xml"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ClassLoader.class" tooltip="java.lang.ClassLoader">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=HelloAndroid/C:\/Dev\/android-sdk\/platforms\/android-7\/android.jar&lt;java.lang(ClassLoader.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" tooltip="HelloAndroid/res/layout/main.xml">
+<persistable path="/HelloAndroid/res/layout/main.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="HelloAndroid/gen/com/example/helloandroid/R.java">
-<persistable path="/HelloAndroid/gen/com/example/helloandroid/R.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DiceView.java" tooltip="HelloAndroid/src/de/orangenscheibe/dicesim/view/DiceView.java">
+<persistable path="/HelloAndroid/src/de/orangenscheibe/dicesim/view/DiceView.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dice.java" tooltip="HelloAndroid/src/com/example/helloandroid/Dice.java">
-<persistable path="/HelloAndroid/src/com/example/helloandroid/Dice.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="proguard.cfg" tooltip="HelloAndroid/proguard.cfg">
+<persistable path="/HelloAndroid/proguard.cfg"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="default.properties" tooltip="HelloAndroid/default.properties">
+<persistable path="/HelloAndroid/default.properties"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DiceAnimator.java" tooltip="HelloAndroid/src/de/orangenscheibe/dicesim/controller/DiceAnimator.java">
+<persistable path="/HelloAndroid/src/de/orangenscheibe/dicesim/controller/DiceAnimator.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="icon.png" tooltip="HelloAndroid/res/drawable-ldpi/icon.png">
+<persistable path="/HelloAndroid/res/drawable-ldpi/icon.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="icon.png" tooltip="HelloAndroid/res/drawable-hdpi/icon.png">
+<persistable path="/HelloAndroid/res/drawable-hdpi/icon.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="icon.png" tooltip="HelloAndroid/res/drawable-mdpi/icon.png">
+<persistable path="/HelloAndroid/res/drawable-mdpi/icon.png"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Canvas.class" tooltip="android.graphics.Canvas">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=HelloAndroid/C:\/Dev\/android-sdk\/platforms\/android-7\/android.jar&lt;android.graphics(Canvas.class"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DiceController.java" tooltip="HelloAndroid/src/controller/DiceController.java">
 <persistable path="/HelloAndroid/src/controller/DiceController.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" tooltip="HelloAndroid/res/layout/main.xml">
-<persistable path="/HelloAndroid/res/layout/main.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloAndroid.java" tooltip="HelloAndroid/src/com/example/helloandroid/HelloAndroid.java">
+<persistable path="/HelloAndroid/src/com/example/helloandroid/HelloAndroid.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="View.class" tooltip="android.view.View">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=HelloAndroid/C:\/Dev\/android-sdk\/platforms\/android-7\/android.jar&lt;android.view(View.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Constructor.class" tooltip="java.lang.reflect.Constructor">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=HelloAndroid/C:\/Dev\/android-sdk\/platforms\/android-7\/android.jar&lt;java.lang.reflect(Constructor.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="LayoutInflater.class" tooltip="android.view.LayoutInflater">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=HelloAndroid/C:\/Dev\/android-sdk\/platforms\/android-7\/android.jar&lt;android.view(LayoutInflater.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="AndroidManifest.xml" tooltip="HelloAndroid/AndroidManifest.xml">
-<persistable path="/HelloAndroid/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="attrs.xml" tooltip="HelloAndroid/res/values/attrs.xml">
-<persistable path="/HelloAndroid/res/values/attrs.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="proguard.cfg" tooltip="HelloAndroid/proguard.cfg">
-<persistable path="/HelloAndroid/proguard.cfg"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DiceAnimator.java" tooltip="HelloAndroid/src/controller/DiceAnimator.java">
+<persistable path="/HelloAndroid/src/controller/DiceAnimator.java"/>
 </file>
 </mruList>
 </workbench>

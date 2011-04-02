@@ -7,12 +7,17 @@
 <fullyQualifiedTypeName name="android.R"/>
 <fullyQualifiedTypeName name="android.R.attr"/>
 <fullyQualifiedTypeName name="android.R.style"/>
-<fullyQualifiedTypeName name="com.example.helloandroid.R.styleable"/>
 <fullyQualifiedTypeName name="java.lang.CharSequence"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="com.example.helloandroid.view.DiceView"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="com.example.helloandroid.Dice"/>
-<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.graphics.Rect"/>
+<fullyQualifiedTypeName name="android.graphics.Paint.Style"/>
+<fullyQualifiedTypeName name="controller.DiceAnimator"/>
+<fullyQualifiedTypeName name="com.example.helloandroid.R.styleable"/>
+<fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="com.example.helloandroid.view.DiceView"/>
 <fullyQualifiedTypeName name="controller.DiceController"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.graphics.RectF"/>
 </qualifiedTypeNameHistroy>
