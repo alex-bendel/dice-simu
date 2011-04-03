@@ -9,7 +9,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.example.helloandroid.R;
+import de.orangenscheibe.dicesim.R;
 
 public class DiceView extends View {
 
@@ -78,9 +78,9 @@ public class DiceView extends View {
     private void prepareCoordinates() {
     	
     	float width = getWidth() - (getPaddingLeft() + getPaddingRight());
-    	float height = getHeight() - (getPaddingTop() + getPaddingBottom());
+    	float height = getHeight() - (2*getPaddingTop() + 2*getPaddingBottom());
     	    	
-    	_buttonRect.top = getPaddingTop();
+    	_buttonRect.top = getPaddingTop() * 2;
     	_buttonRect.bottom = _buttonRect.top + height;
     	_buttonRect.right = width;
     	_buttonRect.left = _buttonRect.right - height;

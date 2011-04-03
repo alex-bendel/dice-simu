@@ -4,7 +4,6 @@ import java.util.HashMap;
 
 import android.view.View;
 import android.view.View.OnClickListener;
-
 import de.orangenscheibe.dicesim.Dice;
 import de.orangenscheibe.dicesim.view.DiceView;
 
@@ -26,6 +25,11 @@ public class DiceController {
     	}
 	};
 	
+	public static boolean isRegisterd(int diceId)
+	{
+		return dices.containsKey(diceId);
+	}
+	
 	public static void registerDice(DiceView view, Dice dice)
 	{
 		view.setOnClickListener(RollListner);
@@ -33,13 +37,15 @@ public class DiceController {
 		views.put(dice.Id, view);
 	}
 
-	public static void unregisterDice(int diceId)
+	public static Dice unregisterDice(int diceId)
 	{
-		if(dices.containsKey(diceId))
-			dices.remove(diceId);
-		
 		if(views.containsKey(diceId))
 			views.remove(diceId).setOnClickListener(null);
+		
+		if(dices.containsKey(diceId))
+			return dices.remove(diceId);
+		
+		return null;
 	}
 	
 	public static void unregisterAll()
