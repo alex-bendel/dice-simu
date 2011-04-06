@@ -1,4 +1,4 @@
-package de.orangenscheibe.dicesim;
+package de.orangenscheibe.dicesim.model;
 
 import java.util.Random;
 
@@ -11,6 +11,11 @@ public class Dice {
 
 	private Random rnd = new Random();	
 
+	public Dice()
+	{
+		this(0,0,0);
+	}
+	
 	public Dice(int id, int min, int max)
 	{
 		Id = id;
@@ -23,5 +28,10 @@ public class Dice {
 	{
 		Last = (rnd.nextInt(Max - Min + 1) + Min);
 		return Last;
+	}
+
+	public int Roll(int min, int max)
+	{
+		return (rnd.nextInt(max - min + 1) + min);
 	}
 }

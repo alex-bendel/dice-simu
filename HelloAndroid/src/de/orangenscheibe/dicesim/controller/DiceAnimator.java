@@ -1,17 +1,18 @@
 package de.orangenscheibe.dicesim.controller;
 
 import java.util.Random;
-import de.orangenscheibe.dicesim.view.DiceView;
+
+import de.orangenscheibe.dicesim.view.AbstractDiceView;
 
 public class DiceAnimator extends Thread {
     
-	private DiceView _view;
+	private AbstractDiceView _view;
 	private int _min;
 	private int _max;
 	private int _last;
 	private boolean _stop = false;
 	
-	public DiceAnimator(final DiceView diceView, final int min, int max, int rolled) {
+	public DiceAnimator(final AbstractDiceView diceView, final int min, int max, int rolled) {
         _view = diceView;
         _min = min;
         _max = max;

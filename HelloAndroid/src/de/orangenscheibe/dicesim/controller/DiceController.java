@@ -1,20 +1,19 @@
 package de.orangenscheibe.dicesim.controller;
 
 import java.util.HashMap;
-
+import de.orangenscheibe.dicesim.model.Dice;
+import de.orangenscheibe.dicesim.view.AbstractDiceView;
 import android.view.View;
 import android.view.View.OnClickListener;
-import de.orangenscheibe.dicesim.Dice;
-import de.orangenscheibe.dicesim.view.DiceView;
 
 public class DiceController {
 
-	private static HashMap<Integer,Dice> dices = new HashMap<Integer,Dice>();
-	private static HashMap<Integer,DiceView> views = new HashMap<Integer,DiceView>();
+	private static HashMap<Integer, Dice> dices = new HashMap<Integer, Dice>();
+	private static HashMap<Integer, AbstractDiceView> views = new HashMap<Integer, AbstractDiceView>();
 	
 	protected static OnClickListener RollListner = new OnClickListener() {
     	public void onClick(View v) {     		
-    		DiceView diceView = (DiceView) v;
+    		AbstractDiceView diceView = (AbstractDiceView) v;
     		
     		if(diceView != null && !diceView.isLocked())
     		{
@@ -24,15 +23,17 @@ public class DiceController {
     		}
     	}
 	};
-	
+		
 	public static boolean isRegisterd(int diceId)
 	{
 		return dices.containsKey(diceId);
 	}
 	
-	public static void registerDice(DiceView view, Dice dice)
+	public static void registerDice(AbstractDiceView view, Dice dice, boolean registerListner)
 	{
-		view.setOnClickListener(RollListner);
+		if(registerListner)
+			view.setOnClickListener(RollListner);
+		
 		dices.put(dice.Id, dice);
 		views.put(dice.Id, view);
 	}
@@ -50,7 +51,7 @@ public class DiceController {
 	
 	public static void unregisterAll()
 	{
-		for (DiceView dv : views.values()) 
+		for (AbstractDiceView dv : views.values()) 
 			dv.setOnClickListener(null);
 		
 		dices.clear();

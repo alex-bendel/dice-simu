@@ -1,0 +1,32 @@
+1302036214378	Rename type 'GroupSelection'
+1302038104802	Rename type 'ConfigSelection'
+1302038150863	Rename method 'myClickHandler'
+1302039225937	Rename resource 'groupsetup.xml'
+1302040281726	Rename resource 'main.xml'
+1302040295053	Rename resource 'main.xml'
+1302040313017	Rename resource 'config.xml'
+1302120316372	Rename resource 'main_menu.xml'
+1302121910938	Rename type 'DiceRolling'
+1302122058546	Rename type 'DiceGroupSetup'
+1302122199317	Rename type 'DiceGroupRolling'
+1302122339252	Rename resource 'group_rolling.xml'
+1302122462830	Rename resource 'dice_set_rolling.xml'
+1302122475364	Delete element
+1302122644052	Delete element
+1302122735132	Rename resource 'menu.xml'
+1302122773073	Rename resource 'menu.xml.tmp'
+1302122871185	Move compilation unit
+1302122901680	Rename type 'DiceView'
+1302123056950	Rename type 'MenuEnabledView'
+1302123065661	Move compilation unit
+1302123181438	Rename resource 'group_setup.xml'
+1302123590321	Rename package 'model'
+1302123617244	Rename resource 'dice_rolling.xml'
+1302123643858	Rename resource 'dice_rolling.xml'
+1302123719112	Rename type 'MenuEnabledActivity'
+1302123736460	Move compilation unit
+1302124920652	Delete element
+1302125052209	Delete element
+1302125085023	Rename resource 'mode_selection.xml'
+1302126315755	Rename type 'DiceView'
+1302126772765	Move file

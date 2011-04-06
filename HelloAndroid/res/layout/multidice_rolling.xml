@@ -5,13 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     >
-<TextView  
-	android:id="@+id/InfoMessage"
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/message"
-    />
-<de.orangenscheibe.dicesim.view.DiceView
+<de.orangenscheibe.dicesim.view.MultiDiceView
 	android:id="@+id/D20"  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
@@ -19,7 +13,7 @@
     app:max="20"
     app:color="0xFFFF0000"
     />
-<de.orangenscheibe.dicesim.view.DiceView
+<de.orangenscheibe.dicesim.view.MultiDiceView
 	android:id="@+id/D12"  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
@@ -27,7 +21,7 @@
     app:color="0xFF00FF00"
     app:max="12"    
     />    
-<de.orangenscheibe.dicesim.view.DiceView
+<de.orangenscheibe.dicesim.view.MultiDiceView
 	android:id="@+id/D10"  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
@@ -35,7 +29,7 @@
     app:color="0xFF0000FF"
     app:max="10"
     />    
-<de.orangenscheibe.dicesim.view.DiceView
+<de.orangenscheibe.dicesim.view.MultiDiceView
 	android:id="@+id/D8"  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
@@ -43,7 +37,7 @@
     app:color="0xFFFFFF00"
     app:max="8"
     />    
-<de.orangenscheibe.dicesim.view.DiceView
+<de.orangenscheibe.dicesim.view.MultiDiceView
 	android:id="@+id/D6"  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
@@ -51,7 +45,7 @@
     app:color="0xFF00FFFF"
     app:max="6"
     />    
-<de.orangenscheibe.dicesim.view.DiceView
+<de.orangenscheibe.dicesim.view.MultiDiceView
 	android:id="@+id/D4"  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 

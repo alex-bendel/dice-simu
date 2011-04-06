@@ -1,78 +1,20 @@
 package de.orangenscheibe.dicesim.view;
 
 import android.content.Context;
-import android.content.res.TypedArray;
 import android.graphics.Canvas;
-import android.graphics.Paint;
-import android.graphics.Paint.Style;
 import android.graphics.RectF;
 import android.util.AttributeSet;
-import android.view.View;
 
-import de.orangenscheibe.dicesim.R;
+public class MultiDiceView extends AbstractDiceView {
 
-public class DiceView extends View {
-
-	public String Name;
-    public int Min;
-    public int Max;	   
-    
-    private boolean _locked;
-    private String _diceText;
-    
-    private Paint _paint;
-    private int _ascent;    
     private RectF _buttonRect = new RectF();
     
-	public DiceView(Context context, String name, int color, int min, int max) {
+	public MultiDiceView(Context context, String name, int color, int min, int max) {
 		super(context);				
-		initDefaults(name, color, min, max); 
 	}
 	
-    public DiceView(Context context, AttributeSet attrs) {
+    public MultiDiceView(Context context, AttributeSet attrs) {
         super(context, attrs);                   
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.DiceView);
-
-        String name = a.getString(R.styleable.DiceView_name);
-        int min = a.getColor(R.styleable.DiceView_min, 1);
-        int max = a.getColor(R.styleable.DiceView_max, 6);
-        int color = a.getColor(R.styleable.DiceView_color, 0xFFFFFFFF);
-                        
-        initDefaults(name, color, min, max);          
-        a.recycle();
-    }
-      
-	private void initDefaults(String name, int color, int min, int max) {		
-		
-		Name = name != null ? name : "Dxx";
-		Min = min;
-		Max = max > min ? max : min + 1;
-		
-		_paint = new Paint();
-		_paint.setAntiAlias(true);
-		_paint.setTextSize(48);
-		_paint.setColor(color);
-		_paint.setStyle(Style.FILL);
-       
-        setCurrentValue(1, true);		
-        setPadding(5, 5, 5, 5);                
-	}
-	
-	public boolean isLocked()
-	{
-		return _locked;
-	}
-	
-	public void setCurrentValue(int current, boolean finalValue)
-	{
-		_diceText = String.format("%s: %s", Name, Integer.toString(current));			
-		_locked = !finalValue;		
-	}	
-	
-    @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        setMeasuredDimension(measureWidth(widthMeasureSpec), measureHeight(heightMeasureSpec));       
-        prepareCoordinates();
     }
 
     private void prepareCoordinates() {
@@ -84,6 +26,20 @@ public class DiceView extends View {
     	_buttonRect.bottom = _buttonRect.top + height;
     	_buttonRect.right = width;
     	_buttonRect.left = _buttonRect.right - height;
+    }    
+	
+    @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);       
+        prepareCoordinates();
+        
+        canvas.drawText(_diceText, getPaddingLeft(), getPaddingTop() - _ascent, _paint);        
+        canvas.drawRoundRect(_buttonRect, 5, 5, _paint); 
+    }   
+    
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        setMeasuredDimension(measureWidth(widthMeasureSpec), measureHeight(heightMeasureSpec));
     }
     
     private int measureWidth(int measureSpec) {
@@ -126,11 +82,4 @@ public class DiceView extends View {
                
         return result;
     }
-	
-    @Override
-    protected void onDraw(Canvas canvas) {
-        super.onDraw(canvas);        
-        canvas.drawText(_diceText, getPaddingLeft(), getPaddingTop() - _ascent, _paint);        
-        canvas.drawRoundRect(_buttonRect, 5, 5, _paint); 
-    }   
 }

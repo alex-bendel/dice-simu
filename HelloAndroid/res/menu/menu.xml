@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_single_dice"
+          android:icon="@drawable/dice"
+          android:title="@string/singledice_rolling_label" />
+    <item android:id="@+id/menu_multi_dice"
+          android:icon="@drawable/dice"
+          android:title="@string/multidice_rolling_label" />
+    <item android:id="@+id/menu_dice_set"
+          android:icon="@drawable/dice"
+          android:title="@string/diceset_rolling_label" />
+    <item android:id="@+id/menu_dice_set_setup"
+          android:icon="@drawable/dice"
+          android:title="@string/diceset_setup_label" />
+</menu>

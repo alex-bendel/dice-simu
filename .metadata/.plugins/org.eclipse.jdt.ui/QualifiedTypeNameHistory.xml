@@ -20,5 +20,19 @@
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.graphics.RectF"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.DiceRolling"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.DiceGroupSetup"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.DiceGroupRolling"/>
+<fullyQualifiedTypeName name="android.view.MenuInflater"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.R.layout"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.view.MultiDiceView"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.AbstractActivity"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.DiceSetRolling"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.SingleDiceRolling"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.view.AbstractDiceView"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.view.SingleDiceView"/>
 <fullyQualifiedTypeName name="de.orangenscheibe.dicesim.controller.DiceController"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.R.id"/>
+<fullyQualifiedTypeName name="de.orangenscheibe.dicesim.model.Dice"/>
 </qualifiedTypeNameHistroy>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Dice Sim</string>
-    <string name="message">Touch a color to roll!</string>
+    <string name="singledice_rolling_label">Roll One Dice</string>
+    <string name="multidice_rolling_label">Roll Six Dices</string>
+    <string name="diceset_rolling_label">Roll Dice Sets</string>
+    <string name="diceset_setup_label">Setup Sets</string>
 </resources>
