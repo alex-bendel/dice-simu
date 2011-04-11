@@ -3,7 +3,6 @@ package de.orangenscheibe.dicesim.view;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
-import android.view.View.MeasureSpec;
 
 public class SingleDiceView extends AbstractDiceView {
 	
@@ -17,12 +16,27 @@ public class SingleDiceView extends AbstractDiceView {
 	
     @Override
     protected void onDraw(Canvas canvas) {
-        super.onDraw(canvas);               
-        canvas.drawText(_diceText, getPaddingLeft(), getPaddingTop() - _ascent, _paint);        
+        super.onDraw(canvas);          
+        
+        int width = getWidth() - getPaddingLeft() - getPaddingRight();
+        int height = getHeight() - getPaddingTop() - getPaddingBottom();
+        
+        int textWidth = (int) _paint.measureText(_diceText);
+        canvas.drawText(_diceText, getPaddingLeft() + width/2 - textWidth/2, getPaddingTop() + height/2, _paint);
+        
+//        Style previousStyle = _paint.getStyle();
+//        _paint.setStyle(Style.STROKE);
+//        
+//        canvas.drawLine(0, 0, getWidth(), getHeight(), _paint);
+//        canvas.drawLine(0, getHeight(), getWidth(), 0, _paint);
+//        canvas.drawRect(0, 0, getWidth(), getHeight(), _paint);
+//        
+//        _paint.setStyle(previousStyle);
     } 
     
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {    	
+    	_ascent = (int) _paint.ascent();
     	setMeasuredDimension(measureWidth(widthMeasureSpec), measureHeight(heightMeasureSpec));
     }
     

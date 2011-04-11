@@ -10,7 +10,6 @@
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="com.example.helloandroid.Dice"/>
 <fullyQualifiedTypeName name="android.graphics.Rect"/>
-<fullyQualifiedTypeName name="android.graphics.Paint.Style"/>
 <fullyQualifiedTypeName name="controller.DiceAnimator"/>
 <fullyQualifiedTypeName name="com.example.helloandroid.R.styleable"/>
 <fullyQualifiedTypeName name="android.graphics.Color"/>
@@ -35,4 +34,7 @@
 <fullyQualifiedTypeName name="de.orangenscheibe.dicesim.controller.DiceController"/>
 <fullyQualifiedTypeName name="de.orangenscheibe.dicesim.R.id"/>
 <fullyQualifiedTypeName name="de.orangenscheibe.dicesim.model.Dice"/>
+<fullyQualifiedTypeName name="android.graphics.Path"/>
+<fullyQualifiedTypeName name="android.graphics.Paint.Style"/>
+<fullyQualifiedTypeName name="android.view.View.MeasureSpec"/>
 </qualifiedTypeNameHistroy>

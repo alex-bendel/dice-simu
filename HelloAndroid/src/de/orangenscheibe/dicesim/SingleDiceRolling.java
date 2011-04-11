@@ -23,16 +23,20 @@ public class SingleDiceRolling extends AbstractActivity {
 		super.onStart();
 		
 		SingleDiceView dv = (SingleDiceView) findViewById(R.id.singleDiceView);
-        Dice dice = null;
-        	
-        if(DiceController.isRegisterd(R.id.singleDiceView))
-        	dice = DiceController.unregisterDice(R.id.singleDiceView); 
-        
-        if(dice == null)
-        	dice = new Dice(R.id.singleDiceView, dv.Min, dv.Max);
-        	
-        DiceController.registerDice(dv, dice, false);
-        dv.setCurrentValue(dice.Last, true);
+
+		if(dv != null)
+		{
+			Dice dice = null;
+	        	
+	        if(DiceController.isRegisterd(R.id.singleDiceView))
+	        	dice = DiceController.unregisterDice(R.id.singleDiceView); 
+	        
+	        if(dice == null)
+	        	dice = new Dice(R.id.singleDiceView, dv.Min, dv.Max);
+	        	
+	        DiceController.registerDice(dv, dice, false);
+	        dv.setCurrentValue(dice.Last, true);
+		}
     }
 	
     public void onClickRollD20(View view) {
